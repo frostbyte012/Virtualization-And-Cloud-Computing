@@ -1,0 +1,30 @@
+Find a Suitable PromQL Query
+
+Open Grafana at http://localhost:3000, then:
+
+    Go to "Explore" (left sidebar).
+
+    Select Prometheus as the data source.
+
+    Enter the query:
+
+rate(node_cpu_seconds_total{mode!="idle"}[1m])
+
+Click Run Query.
+
+    This will show CPU usage over time.
+
+
+Open Grafana at http://localhost:3000, then:
+
+    Go to "Explore" (left sidebar).
+
+    Select Prometheus as the data source.
+
+    Enter the query:
+
+rate(node_cpu_seconds_total{mode!="idle"}[1m])
+
+Click Run Query.
+
+    This will show CPU usage over time.

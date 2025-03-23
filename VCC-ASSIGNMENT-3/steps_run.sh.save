@@ -1,0 +1,9 @@
+#!/bin/bash
+chmod +x 1_install_gcp_cli.sh
+./1_install_gcp_cli.sh
+chmod +x 2_authenticate_set_project.sh
+./2_authenticate_set_project.sh
+chmod +x 3_startup-script.sh
+./3_startup-script.sh
+chmod +x 4_instance_template.sh
+./4_instance_template.sh
